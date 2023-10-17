@@ -1,0 +1,93 @@
+.div_place {
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 4px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px 20px 70px 20px;
+    
+}
+
+.Result,
+.table_score,
+.Move {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.table_score,
+.Move {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.table_score {
+    margin-bottom: 50px;
+}
+
+.div_game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 120px;
+    height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.15s;
+    margin-bottom: 40px;
+}
+
+.div_reset_score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.reset_score {
+    width: 180px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.move_icon {
+    height: 45px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
